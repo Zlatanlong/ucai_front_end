@@ -47,7 +47,8 @@ export default {
       this.$http.get('/dish/get/bypage', {
         params: {
           start: page,
-          size: this.onePageSize
+          size: this.onePageSize,
+          rank: ''
         }
       }).then(res => {
         this.currentDishList = res.data.data
