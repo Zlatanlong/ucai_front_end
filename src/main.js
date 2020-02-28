@@ -8,8 +8,8 @@ import Store from './store'
 // 如果忽略的打包iviewcss要注释掉
 // import 'iview/dist/styles/iview.css'
 
-axios.defaults.baseURL = 'http://106.14.171.221:8080/qi_back_end'
-// axios.defaults.baseURL = 'http://localhost:8080'
+// axios.defaults.baseURL = 'http://39.97.102.59:8080/qi_back_end'
+axios.defaults.baseURL = 'http://localhost:8080'
 axios.defaults.withCredentials = true
 
 Vue.use(VueAxios, axios)
